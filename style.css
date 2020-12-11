@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(32, 100, 78);
+}
+.mytext{
+    height: 30px;
+}
+.todo ul{
+    box-sizing: border-box;
+    height: 300px;
+    margin: 0;
+    overflow: auto;
+    width: 60%;
+    }
+    .todo ul li{
+        color:wheat;
+        list-style-type:none ;
+        padding: 5px 0;
+        border: 1px solid orangered;
+        max-width: 1000px;
+        border-radius: 25px;
+        text-align: center;
+        /* text-decoration: black line-through 4px; */
+        font-family: Fantasy;
+        outline: none !important;
+        margin-top: 5px;
+    }
+    .todo ul li:hover{
+        background-color: grey;
+    }
+    .todo ul li button,.yoxa{
+        border-radius: 50%;
+        width: 10px;
+        height: 20px;
+        float: right;
+        margin-right: 10px;
+        
+    }
+    .todo ul li button:hover{
+        background-color: black;
+    }
+    .qutu{
+        width: 80%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+    .qutu input{
+        width: 60%;
+        border-radius: 25px;
+        background-color: orange;
+    }
+    .qutu button{
+        width: 100px;
+        border-radius: 25px;
+        background-color: orangered;
+        outline: none !important;
+    }
+    .active{
+        background-color: red;
+    }
+    .silinen{
+        background:red;
+        text-decoration:black line-through 4px;
+    }
+    
